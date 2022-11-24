@@ -1,0 +1,3 @@
+.foundation{
+    @apply bg-amber-50 w-96 h-96 border border-gray-900 rounded-xl m-auto;
+}
