@@ -1,6 +1,7 @@
 import styles from "./styles/App.module.css"
 import Foundation from "./components/UI/foundation/Foundation";
 import Button from "./components/UI/button/Button";
+import SettingsContainer from "./components/SettingsContainer/SettingsContainer";
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
                 <Button>
                     Сгенерировать пароль
                 </Button>
+                <SettingsContainer/>
             </Foundation>
         </div>
     );
