@@ -20,10 +20,6 @@ const SettingsContainer = () => {
                 <input type="checkbox" id="SpecialSymbols"/>
                 <label htmlFor="SpecialSymbols">$@#&</label>
             </div>
-            <div>
-                <label htmlFor="length">Длина пароля: </label>
-                <input type="range" min="1" max="30" id="length"/>
-            </div>
         </div>
     );
 };
