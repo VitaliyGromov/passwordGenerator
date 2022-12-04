@@ -1,9 +1,8 @@
 import React from 'react';
-import styles from "./foundation.module.css";
 
 const Foundation = (props) => {
     return (
-        <div className={styles.foundation}>
+        <div className="box-border flex flex-col mb-8">
             {props.children}
         </div>
     );
